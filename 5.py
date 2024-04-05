@@ -1,0 +1,9 @@
+N = int(input())
+length = 1
+V = 0
+V_1 = 0
+while V_1 <= N:
+    V = length ** 3
+    length += 1
+    V_1 = length ** 3
+    print(V, end=' ')
